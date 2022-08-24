@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #102542;
+  color: white;
+}
+/** FONT **/
+@font-face {
+  font-family: Titelfont;
+  src: url(https://nicolaadrian.local/wp-content/themes/PortfolioTheme/fonts/KalenderblattGrotesk.ttf);
+  font-weight: normal;
+}
+a {
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+a,
+pre,
+p {
+  color: #f8f8f8;
+  mix-blend-mode: difference;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: Roboto;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Titelfont";
+}
+h1,
+h2 {
+  font-size: clamp(32px, 3.3vw, 64px);
+}
+h3 {
+  font-size: clamp(28px, 1.7vw, 34px);
+}
+p,
+h4 {
+  font-size: clamp(16px, 1.25vw, 28px);
+}
+.layout {
+  background-color: green;
+}
+.menu {
+  background-color: red;
+}
+/*** Header ***/
+header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  mix-blend-mode: difference;
+}
+/** Logo **/
+.logo {
+  display: block;
+  max-width: 100%;
+  width: 100%;
+}
+.logo,
+.logo span {
+  font-family: "Titelfont";
+  font-size: 5rem;
+}
+.logo span {
+  color: transparent;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: #ffffff;
+}
+svg {
+  width: 100%;
+  mix-blend-mode: difference;
+}
+svg text * {
+  font-family: "Titelfont";
+  mix-blend-mode: difference;
+}
+/*** THE FOOTER ***/
+.footer {
+  background-color: red;
+}

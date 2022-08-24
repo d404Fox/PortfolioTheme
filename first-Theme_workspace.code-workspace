@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"less.compile": {
+			"compress": false, // true => remove surplus whitespace
+			"out": false, // false => DON'T output .css files (overridable per-file, see below)
+			"main": "collect.less"
+		}
+	}
+}
